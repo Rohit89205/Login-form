@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #99ff99;
+   /*  background-image: linear-gradient: (to right bottom, )*/
+  /* background-image: url("pexels-photo-1148820.jpeg"); */
+    font-family: 'Oxygen', sans-serif; 
+    letter-spacing: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    width: 100%;
+    height: 100vh;
+  /*  background-image: url("Creative-Dev-Bootstrap-portfolio-web-template.jpg"); */
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 350px;
+    background-image:linear-gradient(to right, rgba(18, 223, 73, 0.815), rgba(23, 207, 115, 0.884));
+   /* background: rgba(103,58,183); */
+}
+.container .form-content,
+.container .login-form{
+    position: relative;
+    width: 50%;
+    height: 350px;
+    float: left;
+    box-sizing: border-box;
+}
+.container .form-content{
+    padding: 40px 30px;
+    color: #fff;
+}
+.container .form-content a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: bold;
+    background-color: #4d94ff;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.container .login-form{
+
+    background: #fff;
+    height: 380px;
+    top: -15px;
+    box-shadow: -20px 0 15px rgba(0,0,0,.2);
+    padding: 30px;
+}
+.container .login-form h1{
+    color: #262626;
+}
+.container .login-form input{
+    margin-left: 12px;
+    display: block;
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 15px;
+
+}
+.container .login-form input:hover,
+.container .login-form input:valid{
+    border: 2px solid #3ab759;
+}
+.container .login-form input[typ="submit"]{
+    color: #fff;
+    background: #673ab7;
+    transition: .5s;
+    font-size: 15px;
+    margin: 0 10px 0 10px;
+}
+.container .login-form input[type="submit"]:hover{
+    /* background: #1eee03d8; */
+    border: 2px solid #0696129c;
+}
+.container .login-form a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0066ff;
+    margin-bottom: 10px;
+}
+.container .login-form a:hover{
+    text-decoration: underline;
+    transition: all 1s;
+    color: #4dff4d;
+    margin: 10px;
+}
+.container .form-content a:hover{
+    margin: 5px;
+    background: #3ab759;
+    transition: all 1s;
+}
+.sign{
+    margin-top: 35px;
+}
